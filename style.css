@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header-title {
     color: rgb(243, 31, 31);
     font-size: 42px;
@@ -5,4 +11,16 @@
 
 header {
     text-align: center;
+}
+
+.menu-bar {
+    background-color: #e40d0d;
+    text-decoration: none;
+    display: flex box;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+   
 }
