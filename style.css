@@ -6,11 +6,13 @@
 }
 
 body {
-    background-color: rgb(186, 207, 250);
+    background: linear-gradient(to right top, #65dfc9, #066079);
+    width: 100%;
+    height: 25%;
 }
 
 .header-title {
-    color: rgb(243, 31, 31);
+    color: rgb(64, 67, 240);
     font-size: 42px;
 }
 
@@ -28,8 +30,9 @@ a {
 
 .menu-bar {
 
-    background-color: #e40d0d;
-    padding: 2%;
+    background-color: rgb(64, 67, 240);
+    margin-top: 0;
+    padding: 1%;
     font-size: 22px;
     display: flex;
     flex-direction: row;
@@ -38,8 +41,31 @@ a {
 
 nav {
     justify-content: space-between;
+    align-items: center;
 
 }
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.article-home {
+   
+}
+
+.content h2 {
+    color: coral;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
     
     
    
