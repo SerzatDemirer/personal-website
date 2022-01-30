@@ -122,3 +122,46 @@ nav {
     color: white;
 
 }
+
+.content-portfolio-box{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 850px) {
+    .content-portfolio-box {
+        align-items: center;
+        flex-direction: column-reverse;
+    }¨
+    
+  }
+.content-article-box{
+    max-width: 64%
+}
+
+.profile-image-box{
+    margin-left: 28px;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+
+.experience-list span {
+    margin-bottom: 10px;
+}
+
+.content-article-box h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-title {
+    font-weight: 800;
+}
+
+.work-date{
+    font-style: italic;
+}
