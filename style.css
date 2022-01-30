@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: Helvetica, Arial, sans-serif;
+
 }
 
 body {
     background: linear-gradient(to right top, #65dfc9, #066079);
     width: 100%;
-    height: 25%;
+    height: %;
 }
 
 .header-title {
@@ -29,7 +30,7 @@ a {
 }
 
 .menu-bar {
-
+    
     background-color: rgb(64, 67, 240);
     margin-top: 0;
     padding: 1%;
@@ -46,6 +47,7 @@ nav {
 }
 
 .home {
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -55,17 +57,68 @@ nav {
    
 }
 
+.content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.section{
+    margin-top: 0;
+	display: flex;
+	flex-direction: row;
+	
+   
+}
+
 .content h2 {
     color: coral;
 }
 
 .section {
+    margin-right: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
+}
+
+.button {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.learn{
+    border: 2px solid coral;
+    width: 120px;
+    height: 40px;
+    color: coral;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1%;
+}
+
+.consultant{
+    background-color: coral;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 30px 0px 0px 30px;
 }
 
     
     
    
+.menu-bar a{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+
+}
